@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Visualization Critique</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 id="title">
+                Visualization Critique for Mini-Project 1
+            </h1>
+            <h5 id="subtitle">
+                by Anna, Kim, Ivan, and Yinzhe
+            </h5>
+         </div>
+        <div  class="row">
+            <div class="column_left">
+                <h3 class="column_title">
+                    Good Designs
+                </h3>
+                <button id="generate_good">
+                    Get a new set of design
+                </button>
+                <div class="design">
+                    <img id="good_design_pic" src="good1.jpg">
+                    <h5 id="critique_title">
+                        Our Critique
+                    </h5>
+                    <p id="good_design_critique">
+                        The audience for this visualization is pretty wide and can apply to anyone interested in learning about the gender and diversity gap in the tech industry. The data that is encoded is the employee breakdown in the US in many different companies based on gender and ethnicity. There are nominal properties in this visualization are the companies, gender, US population, year etc. It also has quantitative aspects by showing the percentages of employees by category. Hue and color is also used to organize the encoded data. Overall, this visualization is good because it conveys the data in a function, beautiful and enlightening way. In addition, it is interactive and allows the user to sort and view the data.
+                    </p>
+                    <a id="good_link" class="link" href="https://informationisbeautiful.net/visualizations/diversity-in-tech/"> Link to the Viz</a>
+                </div>
+            </div>
+            <div id="vertical"></div>
+            <div class="column_right">
+                <h3 class="column_title">
+                    Bad Designs
+                </h3>
+                <button id="generate_bad">
+                    Get a new set of design
+                </button>
+                <div class="design">
+                    <img id="bad_design_pic" src="bad1.jpg">
+                    <h5 id="critique_title">
+                        Our Critique
+                    </h5>
+                    <p id="bad_design_critique">
+                        The audience for this visualization is clearly for people who drink alcohol and are looking for hangover cures. The message that it conveys is that there are different types of hangover cures and they have different ingredients. The data that is encoded in this visualization is the type of hangover cure, the ingredients, and the proportions of the ingredients. The visualization is beautiful and includes the color of all the ingredients. However, it lacks organization and could be more functional and include more insightful information about each hangover cures’ properties. Considering all aspects of the visualization, it could be more enlightening and identify a trend within the different drinks, so this is a bad visualization.
+                    </p>
+                    <a id="bad_link" class="link" href="https://informationisbeautiful.net/visualizations/worlds-best-hangover-cure/"> Link to the Viz</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <h3 id="title">
+                Our Redesigns
+            </h3>
+            <button id="generate_design"> Get a new set of redesign</button>
+        </div>
+        <div class="row">
+            <div class="column">
+                <h3 class="column_title">
+                    Original Design
+                </h3>
+                <img id="design_pic" src="bad1.jpg">
+                <h3 class="column_title">
+                    Our explanation
+                </h3>
+                <p id="redesign_explanation">
+                    We chose this as the final redesign for Hangover Cures because it functionally and visually organizes all the drinks well where you can analyze common ingredients among each drink. We chose to include a key in the bar chart so that each color represents an ingredient in the drink. This way we can see the amount that a single ingredient is in each different drink. I think my redesign is a more organized way and makes the ingredients a nominal category. The y-axis for the volume of the drink also adds quantitative data to the visualization. Overall, I think this makes the visualization easier to read and derive trends from. Before, it was just a list of drinks, but I think you will be able to gather more insight from the stacked barchart redesign. The tradeoff that I made for this design is that you cannot envision the picture of the drink in a cup but a bar is pretty similar in that shape.
+                </p>
+            </div>
+            <div class="column">
+                <h3 class="column_title">
+                    Our Designs
+                </h3>
+                <div class="row">
+                    <div class="redeign_container">
+                        <h5 class="redesign_rank">
+                            Design #1
+                        </h5>
+                    </div>
+                    <div>
+                        <img id="redesign_pic0" src="redesign1.jpg">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="redeign_container">
+                        <h5 class="redesign_rank">
+                            Design #2
+                        </h5>
+                    </div>
+                    <div>
+                        <img id="redesign_pic1" src="redesign2.jpg">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="redeign_container">
+                        <h5 class="redesign_rank">
+                            Best Design
+                        </h5>
+                    </div>
+                    <div>
+                        <img id="redesign_pic2" src="redesign3.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
